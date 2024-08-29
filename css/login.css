@@ -1,0 +1,105 @@
+/* Responsivo para mobiles */
+/* @media(max-width: 375px) {
+  header {
+      padding: 7px;
+      font-size: 1em;
+  }
+} */
+
+.login-form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  width: 120vh;
+  justify-content: center;
+}
+
+.login__header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login__header img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sobreimagem {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  width: 50%;
+  transform: translate(-50%, -50%);
+  height: auto;
+}
+
+.login__overlay {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 2px solid #333;
+  border-radius: 8px;
+  color: #333;
+  font-size: 1em;
+  margin-bottom: 15px;
+  max-width: 300px;
+  outline: none;
+  padding: 15px;
+  width: 100%;
+}
+
+.login__button {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #003885;
+  border: 3px solid #fefcff;
+  border-radius: 8px;
+  color: #fefcff;
+  cursor: pointer;
+  font-size: 1em;
+  max-width: 300px;
+  padding: 15px;
+  width: 100%;
+}
+
+.login__buttoneasy{
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #003885;
+  border: 3px solid #fefcff;
+  border-radius: 8px;
+  color: #fefcff;
+  cursor: pointer;
+  font-size: 1em;
+  max-width: 300px;
+  padding: 15px;
+  width: 100%;
+}
+
+.login__button:disabled {
+  background-color: #eee;
+  border: 2px solid #969595;
+  color: #aaa;
+  cursor: auto;
+}
+
+.login__buttoneasy:disabled {
+  background-color: #eee;
+  border: 2px solid #969595;
+  color: #aaa;
+  cursor: auto;
+}
