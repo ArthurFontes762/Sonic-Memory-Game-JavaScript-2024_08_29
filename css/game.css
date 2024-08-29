@@ -1,10 +1,10 @@
 /* Responsivo para mobiles */
-/* @media(max-width: 375px) {
+@media(max-width: 375px) {
   header {
       padding: 7px;
       font-size: 1em;
   }
-} */
+}
 
 main {
   display: flex;
