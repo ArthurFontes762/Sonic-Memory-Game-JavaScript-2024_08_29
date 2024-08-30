@@ -1,11 +1,3 @@
-/* Responsivo para mobiles */
-@media(max-width: 375px) {
-  header {
-      padding: 7px;
-      font-size: 1em;
-  }
-}
-
 .login-form {
   align-items: center;
   display: flex;
@@ -22,19 +14,22 @@
   justify-content: center;
 }
 
-.login__header img {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+/* Estilo para a imagem de fundo */
+.bglogin {
+  width: 320vh;
+  height: auto;
+  max-height: 170vh; /* Limitação de altura */
+  object-fit: cover; /* Proporção da imagem */
 }
 
+/* Estilo para a imagem sobreposta */
 .sobreimagem {
-  position: absolute;
-  top: 25%;
-  left: 50%;
-  width: 50%;
-  transform: translate(-50%, -50%);
+  width: 400px; /* Largura fixa */
   height: auto;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .login__overlay {
@@ -102,4 +97,42 @@
   border: 2px solid #969595;
   color: #aaa;
   cursor: auto;
+}
+
+/* Media Query para dispositivos móveis (largura máxima de 375px) */
+@media screen and (max-width: 375px) {
+  /* Ajustando o form para caber melhor em telas pequenas */
+  .login-form {
+    width: 100vw; /* Ocupa toda a largura da tela */
+    height: auto;
+  }
+
+  /* Redimensionando a imagem de fundo */
+  .bglogin {
+    width: 400px; /* Limita a largura da imagem em celulares */
+    height: 560px; /* Limita a altura da imagem em celulares */
+  }
+
+  /* Redimensionando a imagem sobreposta */
+  .sobreimagem {
+    width: 300px; /* Reduz o tamanho da imagem sobreposta */
+    top: 20%; /* Ajusta a posição no topo */
+  }
+
+  /* Estilos de sobreposição e botões */
+  .login__overlay {
+    font-size: 0.9em; /* Ajusta o tamanho da fonte */
+    padding: 15px; /* Diminui o espaçamento */
+    width: 90%; /* Mantém a sobreposição responsiva */
+    max-width: none;
+  }
+
+  .login__button, 
+  .login__buttoneasy {
+    font-size: 0.9em; /* Ajusta o tamanho do texto dos botões */
+    padding: 15px; /* Diminui o padding para caber melhor */
+    width: 90%; /* Ajusta o tamanho do botão */
+    margin-top: 10%;
+    max-width: none;
+  }
 }
