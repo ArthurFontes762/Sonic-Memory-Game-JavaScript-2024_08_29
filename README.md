@@ -2,6 +2,14 @@
 
 <p align="center"><img src="images/logo.png" alt="Image" height="250" width="500"/></p>
 
+### 31/08/2024 - Update 🔨
+
+- O que mudou? 🤔
+  - Pequenas alterações.
+
+- What updated? 🤔
+  - Small changes.
+
 ### 30/08/2024 - Update 🔨
 
 - O que mudou? 🤔
