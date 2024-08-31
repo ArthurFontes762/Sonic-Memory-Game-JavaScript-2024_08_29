@@ -101,6 +101,10 @@
 
 /* Media Query para dispositivos móveis (largura máxima de 375px) */
 @media screen and (max-width: 375px) {
+  body {
+    overflow: hidden;
+  }
+  
   /* Ajustando o form para caber melhor em telas pequenas */
   .login-form {
     width: 100vw; /* Ocupa toda a largura da tela */
