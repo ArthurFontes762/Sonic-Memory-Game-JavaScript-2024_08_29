@@ -18,8 +18,8 @@
 .bglogin {
   width: 320vh;
   height: auto;
-  max-height: 170vh; /* Limitação de altura */
-  object-fit: cover; /* Proporção da imagem */
+  /*max-height: 170vh;*/ /* Limitação de altura */
+  /*object-fit: cover;*/ /* Proporção da imagem */
 }
 
 /* Estilo para a imagem sobreposta */
@@ -110,7 +110,7 @@
   /* Redimensionando a imagem de fundo */
   .bglogin {
     width: 400px; /* Limita a largura da imagem em celulares */
-    height: 560px; /* Limita a altura da imagem em celulares */
+    /*height: 560px;*/ /* Limita a altura da imagem em celulares */
   }
 
   /* Redimensionando a imagem sobreposta */
