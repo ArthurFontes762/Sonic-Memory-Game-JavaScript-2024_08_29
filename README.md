@@ -5,7 +5,7 @@
 ### 31/08/2024 - Update rápido 🔨
 
 - O que mudou? 🤔
-  - Corrigido o bug de responsividade para celulares pois a tela de login estava com espaço branco (me dê feedback sobre isso).
+  - Corrigido o bug de responsividade para celulares pois a tela de login estava com espaço branco (me deem feedback sobre isso).
 
 - What updated? 🤔
   - Fixed the responsiveness bug for cell phones as the login screen had white space (give me feedback on this).
