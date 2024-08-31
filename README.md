@@ -2,6 +2,14 @@
 
 <p align="center"><img src="images/logo.png" alt="Image" height="250" width="500"/></p>
 
+### 31/08/2024 - Update rápido🔨
+
+- O que mudou? 🤔
+  - Corrigido o bug de responsividade para celulares pois a tela de login estava com espaço branco.
+
+- What updated? 🤔
+  - Fixed the responsiveness bug for cell phones as the login screen had white space.
+
 ### 31/08/2024 - Update 🔨
 
 - O que mudou? 🤔
@@ -13,8 +21,8 @@
 ### 30/08/2024 - Update 🔨
 
 - O que mudou? 🤔
-  - O usuário finalizando o jogo, irá recarregar a página automaticamente.
-  - Modo fácil movido para outra janela.
+  - O usuário finalizando o jogo, irá recarregar a página automaticamente;
+  - Modo fácil movido para outra janela;
   - Ajuste de responsividade para celulares (em celulares, a tela de login continua com um problema de ter um espaço branco, ainda estou tentando corrigir isso mas tá complicado).
 
 - What updated? 🤔
