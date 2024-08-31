@@ -15,11 +15,17 @@
 }
 
 /* Estilo para a imagem de fundo */
-.bglogin {
-  width: 320vh;
-  height: auto;
-  /*max-height: 170vh;*/ /* Limitação de altura */
-  /*object-fit: cover;*/ /* Proporção da imagem */
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-image: url(/images/backgroundlogin.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px 50px;
 }
 
 /* Estilo para a imagem sobreposta */
@@ -108,9 +114,8 @@
   }
 
   /* Redimensionando a imagem de fundo */
-  .bglogin {
-    width: 400px; /* Limita a largura da imagem em celulares */
-    /*height: 560px;*/ /* Limita a altura da imagem em celulares */
+  main  {
+    width: 100%; /* Largura da imagem */
   }
 
   /* Redimensionando a imagem sobreposta */
