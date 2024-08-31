@@ -31,7 +31,7 @@ const checkEndGame = () => {
 
   if (disabledCards.length === 20) {
     clearInterval(this.loop);
-    alert(`Parabéns, ${spanPlayer.innerHTML}! Seu tempo foi de: ${timer.innerHTML}`);
+    alert(`Parabéns, ${spanPlayer.innerHTML}! Seu tempo foi de: ${timer.innerHTML}. Aguarde 2 segundos para reiniciar.`);
 
     // Função de recarregar a página para reiniciar o jogo
     setTimeout(() => {
