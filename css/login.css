@@ -100,11 +100,11 @@
 }
 
 /* Media Query para dispositivos móveis (largura máxima de 375px) */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 412px) {
   body {
     overflow: hidden;
   }
-  
+
   /* Ajustando o form para caber melhor em telas pequenas */
   .login-form {
     width: 100vw; /* Ocupa toda a largura da tela */
@@ -113,8 +113,8 @@
 
   /* Redimensionando a imagem de fundo */
   .bglogin {
-    width: 400px; /* Limita a largura da imagem em celulares */
-    height: 560px; /* Limita a altura da imagem em celulares */
+    width: 100%; /* Limita a largura da imagem em celulares */
+    height: 100vh; /* Limita a altura da imagem em celulares */
   }
 
   /* Redimensionando a imagem sobreposta */
