@@ -115,8 +115,7 @@ main {
 
   /* Redimensionando a imagem de fundo */
   main  {
-    width: 100%; /* Largura da imagem */
-    height: 100%; /* Altura da imagem */
+    padding: 5px;
   }
 
   /* Redimensionando a imagem sobreposta */
