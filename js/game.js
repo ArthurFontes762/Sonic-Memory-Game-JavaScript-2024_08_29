@@ -31,14 +31,38 @@ const checkEndGame = () => {
 
   if (disabledCards.length === 20) {
     clearInterval(this.loop);
-    alert(`Parabéns, ${spanPlayer.innerHTML}! Seu tempo foi de: ${timer.innerHTML}. Clique em OK e aguarde 2 segundos para reiniciar.`);
+    alert(`Parabéns, ${spanPlayer.innerHTML}! Seu tempo foi de: ${timer.innerHTML}.`);
+
+    // Função de integração front end enviando uma requisição 'POST' para o back end e salvar os dados
+    // Dados a serem enviados
+    const data = {
+      nickname: spanPlayer.innerHTML,
+      time: timer.innerHTML
+    };
+
+    // Enviar os dados para o servidor
+    fetch('http://localhost:3000/save', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+    })
+    .then(response => response.json())
+    .then(data => {
+      console.log('Sucesso:', data);
+      // (CASO QUEIRA pois já fiz uma lógica abaixo) Você pode adicionar lógica para reiniciar o jogo ou redirecionar o jogador
+    })
+    .catch((error) => {
+      console.error('Erro:', error);
+    });
 
     // Função de recarregar a página para reiniciar o jogo
     setTimeout(() => {
       window.location.reload();
     }, 2000); // Aguarda 2 segundos para que o jogador possa ver a mensagem antes do recarregamento
   }
-}
+};
 
 
 /* Função de verificar se as cartas são iguais ou não */
