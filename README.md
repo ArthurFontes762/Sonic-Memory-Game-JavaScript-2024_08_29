@@ -6,9 +6,11 @@
 
 - O que mudou? 🤔
   - Corrigido o bug de responsividade para celulares pois a tela de login estava com espaço branco (me deem feedback sobre isso).
+  - Fiz uma versão do jogo para salvar em um banco de dados.
 
 - What updated? 🤔
   - Fixed the responsiveness bug for cell phones as the login screen had white space (give me feedback on this).
+  - I made a version of the game to save in a database.
 
 ### 31/08/2024 - Update 🔨
 
